@@ -1,0 +1,73 @@
+body {
+    background-color: darkgrey;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.cabecalho {
+    background-color: rgb(102, 102, 103);
+    padding: 16px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+  li {
+    float:left;
+  }
+
+
+li a {
+
+  display: block;
+  padding: 8px 16px;
+  background-color: #848484;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  border: solid 2px;
+}
+
+
+li a:hover {
+    background-color: #4b4a4a; }
+
+
+input {
+        border-bottom: 2px solid rgb(70, 70, 70);
+}
+
+
+input:focus {
+    background-color: rgb(149, 149, 149);
+    
+  }
+
+
+#nome input:focus {
+   width: 50%;
+}
+
+
+#confirmar input {
+
+    background-color: green;
+}
+
+#resetar input {
+
+    background-color: red;
+}
+
+.rodape {
+
+    background-color: rgb(102, 102, 103);
+    padding: 16px;}
